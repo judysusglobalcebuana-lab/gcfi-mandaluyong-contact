@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10213d">
+  <meta name="description" content="Contact details and location of Global Cebuana Finance Inc. – Mandaluyong Branch.">
+  <title>Global Cebuana Finance Inc. | Mandaluyong Branch</title>
+  <style>
+    :root { --navy:#10213d; --navy2:#1c3458; --gold:#c9a24b; --cream:#fbf8f0; --ink:#1d2939; --muted:#657184; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:linear-gradient(135deg,#f6f2e8 0%,#ffffff 55%,#edf1f7 100%); min-height:100vh; }
+    .topline { height:7px; background:linear-gradient(90deg,var(--gold),#f0d994,var(--gold)); }
+    header { background:var(--navy); color:white; padding:28px 20px 58px; text-align:center; }
+    .monogram { width:76px; height:76px; margin:0 auto 16px; border:2px solid var(--gold); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--gold); font-weight:800; font-size:23px; letter-spacing:1px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:2.2px; font-size:11px; color:#e9d49e; font-weight:bold; }
+    h1 { margin:12px auto 8px; max-width:700px; font-size:clamp(27px,5vw,42px); line-height:1.12; }
+    .branch { margin:0; color:#e9edf5; font-size:16px; }
+    main { width:min(680px, calc(100% - 32px)); margin:-32px auto 40px; position:relative; }
+    .card { background:white; border:1px solid #e7e9ee; border-radius:20px; padding:26px; box-shadow:0 16px 42px rgba(16,33,61,.12); }
+    .intro { text-align:center; margin:0 0 22px; color:var(--muted); line-height:1.6; }
+    .details { display:grid; gap:12px; }
+    .detail { display:flex; gap:14px; align-items:flex-start; padding:16px; border:1px solid #edf0f4; border-radius:14px; background:#fff; }
+    .ico { flex:0 0 42px; height:42px; border-radius:12px; background:#f7f0dc; display:flex; align-items:center; justify-content:center; font-size:20px; }
+    .label { display:block; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:1px; margin:2px 0 5px; }
+    .value { font-size:15px; line-height:1.5; overflow-wrap:anywhere; font-weight:600; }
+    a { color:var(--navy2); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:20px; }
+    .btn { display:flex; justify-content:center; align-items:center; gap:8px; min-height:48px; border-radius:12px; padding:12px 14px; font-weight:bold; font-size:14px; text-align:center; border:1px solid var(--navy); }
+    .primary { background:var(--navy); color:white; }
+    .secondary { background:white; color:var(--navy); }
+    .note { text-align:center; color:var(--muted); font-size:12px; line-height:1.6; margin:20px 8px 0; }
+    footer { text-align:center; color:#6c7480; font-size:12px; padding:0 20px 28px; }
+    .goldline { width:48px; height:3px; background:var(--gold); border-radius:3px; margin:0 auto 18px; }
+    @media(max-width:480px) { .card{padding:20px 16px;} .actions{grid-template-columns:1fr;} header{padding-bottom:52px;} }
+  </style>
+</head>
+<body>
+  <div class="topline"></div>
+  <header>
+    <div class="monogram" aria-hidden="true">GCFI</div>
+    <div class="eyebrow">Kaagapay Mo, Kabayan</div>
+    <h1>Global Cebuana Finance Inc.</h1>
+    <p class="branch">Mandaluyong Branch</p>
+  </header>
+  <main>
+    <section class="card" aria-labelledby="contact-heading">
+      <div class="goldline"></div>
+      <h2 id="contact-heading" style="text-align:center;margin:0 0 10px;font-size:22px;color:#10213d;">Contact Details</h2>
+      <p class="intro">We’re here to assist you. Contact our Mandaluyong Branch through the details below.</p>
+      <div class="details">
+        <div class="detail">
+          <div class="ico" aria-hidden="true">📞</div>
+          <div><span class="label">Phone / Mobile</span><div class="value"><a href="tel:+639674403204">0967 440 3204</a></div></div>
+        </div>
+        <div class="detail">
+          <div class="ico" aria-hidden="true">✉️</div>
+          <div><span class="label">Email Address</span><div class="value"><a href="mailto:ortigas@globalcebuana.com.ph">ortigas@globalcebuana.com.ph</a></div></div>
+        </div>
+        <div class="detail">
+          <div class="ico" aria-hidden="true">📍</div>
+          <div><span class="label">Branch Address</span><div class="value">Unit 21, Maranaw Plaza, EDSA, Mandaluyong City<br><span style="font-weight:normal;color:#657184;">Near the DMW Building</span></div></div>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="tel:+639674403204">☎ Call the Branch</a>
+        <a class="btn secondary" href="mailto:ortigas@globalcebuana.com.ph">✉ Send an Email</a>
+        <a class="btn secondary" style="grid-column:1/-1" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Unit+21+Maranaw+Plaza+EDSA+Mandaluyong+City">↗ Open Location in Google Maps</a>
+      </div>
+      <p class="note">For inquiries, please contact the branch directly. Office hours and services may vary.</p>
+    </section>
+  </main>
+  <footer>© Global Cebuana Finance Inc. – Mandaluyong Branch</footer>
+</body>
+</html>
